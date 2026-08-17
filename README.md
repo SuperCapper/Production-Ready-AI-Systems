@@ -100,3 +100,4 @@ production-ai-app/
 - [Layer 5: evaluation/ — The Testing Layer for AI Quality](layers/layer-5-evaluation.md)
 - [Layer 6: observability/ — Watching What Happens Inside the AI System](layers/layer-6-observability.md)
 - [Layer 7: .claude/ — The AI Coding Assistant Memory Layer](layers/layer-7-claude.md)
+- [Layer 8: data/ — Where Raw Knowledge Becomes Usable AI Context](layers/layer-8-data.md)
