@@ -95,3 +95,4 @@ production-ai-app/
 
 - [Layer 1: services/ — The Brain of the AI Application](layers/layer-1-services.md)
 - [Layer 2: agents/ — The Workers That Think and Take Action](layers/layer-2-agents.md)
+- [Layer 3: prompts/ — Where AI Instructions Are Managed Properly](layers/layer-3-prompts.md)
