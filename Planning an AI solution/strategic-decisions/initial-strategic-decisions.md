@@ -47,7 +47,7 @@ Whether you want to analyze your data with mathematical algorithms or generate n
 - Analyze your data: If you want to use mathematical and statistical equations to analyze structured data, then you need machine learning. For example, with machine learning, you can make predictions, detect patterns, and solve optimization problems.
 - Generate content: If you want to generate or process unstructured content, then you need generative AI. For example, with gen AI, you can summarize, classify, translate, transform, and generate text or code.
 
-### More information about the difference between ML and gen AI
+### More information about the difference between ML and Gen AI
 
 - Foundation model architecture
 
