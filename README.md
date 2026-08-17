@@ -98,3 +98,4 @@ production-ai-app/
 - [Layer 3: prompts/ — Where AI Instructions Are Managed Properly](layers/layer-3-prompts.md)
 - [Layer 4: security/ — The Safety Gate of the AI System](layers/layer-4-security.md)
 - [Layer 5: evaluation/ — The Testing Layer for AI Quality](layers/layer-5-evaluation.md)
+- [Layer 6: observability/ — Watching What Happens Inside the AI System](layers/layer-6-observability.md)
