@@ -101,3 +101,4 @@ production-ai-app/
 - [Layer 6: observability/ — Watching What Happens Inside the AI System](layers/layer-6-observability.md)
 - [Layer 7: .claude/ — The AI Coding Assistant Memory Layer](layers/layer-7-claude.md)
 - [Layer 8: data/ — Where Raw Knowledge Becomes Usable AI Context](layers/layer-8-data.md)
+- [Layer 9: tests/ — The Layer That Stops Your AI App From Breaking Silently](layers/layer-9-tests.md)
