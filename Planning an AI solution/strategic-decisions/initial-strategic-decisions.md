@@ -1,6 +1,4 @@
-# Initial strategic decisions
-
-Source: https://www.ibm.com/docs/en/watsonx/saas?topic=solution-initial-strategic-decisions
+# Initial Strategic Decisions
 
 Before you start planning your generative AI or machine learning solution, you must make some key strategic decisions. Your strategy must account for your organization's requirements and priorities, the skills and preferences of your development team, your data requirements, and the solution requirements.
 
@@ -17,22 +15,22 @@ To set the strategy for implementing your AI solution, make the following decisi
 - [How to optimize and manage foundation models](#how-to-optimize-and-manage-foundation-models)
 - [How to deliver and maintain your solution](#how-to-deliver-and-maintain-your-solution)
 
-## What is your use case
+## What is your use case?
 
 Understand the goal of your solution, whether that goal is feasible and valuable, and how you can determine when your solution is ready:
 
-**AI task**
+### AI task
 What do you need the model to do?
 
-**Feasibility**
+### Feasibility
 Understand the limits of AI so that you can evaluate whether your use case is feasible.
 - `Gen AI` For example, you can check foundation model benchmark scores for the type of use case that you want to implement.
 - `ML` For example, to train a machine learning (ML) model, you need enough high-quality labeled data for an algorithm to make accurate predictions or classifications.
 
-**Business value**
+### Business value
 Consider whether the benefits of the solution are greater than the cost of running the solution.
 
-**Success criteria**
+### Success criteria
 Decide how to measure whether the solution is successful. For example, you can rely on evaluation metrics or user feedback from target users.
 
 ## Whether to implement gen AI or machine learning
