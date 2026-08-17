@@ -1,11 +1,11 @@
 # Initial Strategic Decisions
 
-Before you start planning your generative AI or machine learning solution, you must make some key strategic decisions. Your strategy must account for your organization's requirements and priorities, the skills and preferences of your development team, your data requirements, and the solution requirements.
+Before you start planning your Generative AI or Machine Learning solution, you must make some key strategic decisions. Your strategy must account for your organization's requirements and priorities, the skills and preferences of your development team, your data requirements, and the solution requirements.
 
 To set the strategy for implementing your AI solution, make the following decisions:
 
 - [What is your use case](#what-is-your-use-case)
-- [Whether to implement Gen AI or machine learning](#whether-to-implement-gen-ai-or-machine-learning)
+- [Whether to implement Gen AI or Machine Learning](#whether-to-implement-gen-ai-or-machine-learning)
 - [Who to involve](#who-to-involve)
 - [How to manage risk and compliance](#how-to-manage-risk-and-compliance)
 - [How much to automate versus code](#how-much-to-automate-versus-code)
@@ -25,7 +25,7 @@ What do you need the model to do?
 ### Feasibility
 Understand the limits of AI so that you can evaluate whether your use case is feasible.
 - `Gen AI` For example, you can check foundation model benchmark scores for the type of use case that you want to implement.
-- `ML` For example, to train a machine learning (ML) model, you need enough high-quality labeled data for an algorithm to make accurate predictions or classifications.
+- `ML` For example, to train a Machine Learning (ML) model, you need enough high-quality labeled data for an algorithm to make accurate predictions or classifications.
 
 ### Business value
 Consider whether the benefits of the solution are greater than the cost of running the solution.
@@ -35,17 +35,17 @@ Decide how to measure whether the solution is successful. For example, you can r
 
 ## Whether to implement Gen AI or Machine Learning
 
-The type of data that you plan to work with and what you want to do with that data can help you decide whether you need machine learning or generative AI.
+The type of data that you plan to work with and what you want to do with that data can help you decide whether you need Machine Learning or Generative AI.
 
 ### Type of data
 Whether the data that you want to process with AI is structured or unstructured can often indicate which type of AI you need:
-- Structured: If your labeled datasets are in tabular format, you probably need machine learning.
-- Unstructured: If you have large amounts of documents or other types of unstructured data, you probably need generative AI.
+- Structured: If your labeled datasets are in tabular format, you probably need Machine Learning.
+- Unstructured: If you have large amounts of documents or other types of unstructured data, you probably need Generative AI.
 
 ### Type of goal
 Whether you want to analyze your data with mathematical algorithms or generate new content indicates which type of AI you need:
-- Analyze your data: If you want to use mathematical and statistical equations to analyze structured data, then you need machine learning. For example, with machine learning, you can make predictions, detect patterns, and solve optimization problems.
-- Generate content: If you want to generate or process unstructured content, then you need generative AI. For example, with gen AI, you can summarize, classify, translate, transform, and generate text or code.
+- Analyze your data: If you want to use mathematical and statistical equations to analyze structured data, then you need Machine Learning. For example, with Machine Learning, you can make predictions, detect patterns, and solve optimization problems.
+- Generate content: If you want to generate or process unstructured content, then you need Generative AI. For example, with gen AI, you can summarize, classify, translate, transform, and generate text or code.
 
 ### More information about the difference between ML and Gen AI
 
@@ -71,9 +71,9 @@ You need these people involved in design and operational decisions. This team of
 If you understand your risks and compliance needs before you start developing your solution, you can be better prepared for audits later.
 
 ### AI-related risks
-Understand key risk dimensions like reputational, regulatory, and operational risk. Many risks are the same for using generative AI and machine learning models, but some risks are amplified by generative AI, and other risks are specific to generative AI.
+Understand key risk dimensions like reputational, regulatory, and operational risk. Many risks are the same for using Generative AI and Machine Learning models, but some risks are amplified by Generative AI, and other risks are specific to Generative AI.
 - `Gen AI` For example, a foundation model might generate output that contains factually inaccurate or untruthful content, which is referred to as hallucinating.
-- `ML` For example, your machine learning model might show a tendency to provide favorable outcomes more often for one group over another.
+- `ML` For example, your Machine Learning model might show a tendency to provide favorable outcomes more often for one group over another.
 
 ### Legal and regulatory compliance
 Determine which laws and regulations you must comply with, the methods for tracking compliance, and the methods for ensuring compliance. For example, your organization might require a formal risk assessment or an approval workflow for AI solutions.
@@ -98,7 +98,7 @@ If you want to write code, you can choose between REST APIs, Python, and Node.js
 You can choose how much of your solution code is generated for you:
 - No code: You can complete all prompt engineering, model tuning, and document embedding and vectorizing tasks with tools.
   - `Gen AI` For example, you can automate the search for the best RAG pattern with AutoAI for RAG, create a prompt template in the Prompt Lab, and build an AI agent in Agent Lab.
-  - `ML` For example, you can automate the search for the best data algorithms, transformations, and parameter settings with AutoAI for machine learning to create the best predictive model. You can develop predictive models on a graphical canvas with SPSS Modeler.
+  - `ML` For example, you can automate the search for the best data algorithms, transformations, and parameter settings with AutoAI for Machine Learning to create the best predictive model. You can develop predictive models on a graphical canvas with SPSS Modeler.
 - Some code: You can generate Python notebooks with many tools and then adapt the code as needed.
   - `Gen AI` For example, you can generate a notebook based on a prompt template, for embedding and vectorizing documents, or for implementing an AI agent.
   - `ML` For example, you can solve a prescriptive analytics problem with a Decision Optimization notebook.
@@ -114,7 +114,7 @@ Most of the watsonx.ai functionality is available both with tools in the user in
 
 ## How to choose foundation models for gen AI
 
-You don't need to choose foundation models before you make a plan for your gen AI solution. However, if you understand which criteria are most important to you and your organization, you can reduce the risk of selecting an inappropriate foundation model. For some types of generative AI solutions, you need multiple models with different capabilities. For example, a RAG solution can include models for inferencing, extracting text from documents, vectorizing documents, and reranking search results.
+You don't need to choose foundation models before you make a plan for your gen AI solution. However, if you understand which criteria are most important to you and your organization, you can reduce the risk of selecting an inappropriate foundation model. For some types of Generative AI solutions, you need multiple models with different capabilities. For example, a RAG solution can include models for inferencing, extracting text from documents, vectorizing documents, and reranking search results.
 
 ### Task
 The task that you want the foundation model to do can be a limiting factor for choosing a foundation model. For many gen AI tasks, you can choose between many foundation models. However, for other gen AI tasks, such as translation or vectorizing documents, you have fewer choices.
@@ -152,7 +152,7 @@ Foundation models are trained on large amounts of data, but not on your internal
 If you need a solution that answers questions by grounding the model with the information in your knowledge base of documents, you can set up a RAG pattern. In a RAG pattern, you vectorize your documents for efficient retrieval of passages that answer user questions.
 
 ### Tuning and testing data
-If you need to improve or tailor the output for natural language processing tasks such as classification, summarization, and generation, you can tune the foundation model. If you want to test the quality of your prompt, you can evaluate it with generative AI metrics. For both tasks, you must provide a set of validated prompt input and output examples. If your data contains any sensitive information, such as personally identifiable information (PII), make sure that you know your organization's policy about PII. For example, you might need to mask PII or generate synthetic data for tuning or testing your foundation model.
+If you need to improve or tailor the output for natural language processing tasks such as classification, summarization, and generation, you can tune the foundation model. If you want to test the quality of your prompt, you can evaluate it with Generative AI metrics. For both tasks, you must provide a set of validated prompt input and output examples. If your data contains any sensitive information, such as personally identifiable information (PII), make sure that you know your organization's policy about PII. For example, you might need to mask PII or generate synthetic data for tuning or testing your foundation model.
 
 ### More information about data preparation for gen AI
 
@@ -167,7 +167,7 @@ You must decide how to measure quality and ensure safety.
 ### Evaluation
 You can evaluate solution performance and risks against industry-standard metrics. These metrics help you to ensure that AI solutions are free from bias, can be easily explained and understood by business users, and are auditable in business transactions.
 - `Gen AI` You can measure the textual accuracy, similarity, and quality of foundation model output. You can also evaluate fairness, performance, and drift of model output. You can evaluate the performance of multiple assets simultaneously and view comparative analyses of results to identify the best solutions.
-- `ML` You can monitor your machine learning model deployment results for fairness, quality, drift, and explainability.
+- `ML` You can monitor your Machine Learning model deployment results for fairness, quality, drift, and explainability.
 
 ### Risk assessment
 You can identify potential risks by completing a risk assessment questionnaire.
@@ -183,7 +183,7 @@ Consider setting up a red team to emulate adversarial attacks.
 - Generative AI quality evaluations
 - Evaluation Studio
 - Removing harmful content
-- Evaluating machine learning deployments
+- Evaluating Machine Learning deployments
 - Completing a risk assessment
 
 ## How to optimize and manage foundation models
@@ -219,13 +219,13 @@ You must decide how to deliver your gen AI solution and help ensure its continue
 ### Deploying your solution
 You deploy your AI asset in a deployment space and then retrieve the deployment endpoint to call your AI solution in your application.
 - `Gen AI` For inferencing a foundation model, the endpoint to inference the model might be in a code snippet, a Python function, an AI service, or code that your team developed.
-- `ML` For a machine learning solution, the endpoint might be for a machine learning model, a Python function, an R Shiny application, an NLP model, or a script.
+- `ML` For a Machine Learning solution, the endpoint might be for a Machine Learning model, a Python function, an R Shiny application, an NLP model, or a script.
 
 ### Managing ModelOps with deployment spaces
 You can support a ModelOps flow by creating separate deployment spaces for testing, staging, and production versions of your solution. You can manage access to your production solution by adding the appropriate collaborators to each space.
 
 ### Orchestrating ML pipelines
-`ML` You can assemble and configure a pipeline to create, train, deploy, and update machine learning models and Python scripts.
+`ML` You can assemble and configure a pipeline to create, train, deploy, and update Machine Learning models and Python scripts.
 
 ### Monitoring
 Similar to evaluating your solution during development, you can monitor solution performance and risks, such as fairness, quality, and explainability. You can view trends over time and set thresholds to alert you when performance dips.
@@ -237,7 +237,7 @@ Consider implementing a user feedback mechanism and creating a process for gathe
 ### More information about delivery and maintenance
 
 - Deploying foundation model assets
-- Deploying machine learning assets
+- Deploying Machine Learning assets
 - Evaluating AI
 - Managing the AI lifecycle with ModelOps
 - Orchestrating tasks with Orchestration Pipelines
@@ -245,5 +245,5 @@ Consider implementing a user feedback mechanism and creating a process for gathe
 ## Learn more
 
 - Comparison of tools to code
-- Planning the implementation workflow for your generative AI solution
-- Planning the implementation workflow for your machine learning solution
+- Planning the implementation workflow for your Generative AI solution
+- Planning the implementation workflow for your Machine Learning solution
