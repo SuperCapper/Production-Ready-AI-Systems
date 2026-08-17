@@ -99,3 +99,4 @@ production-ai-app/
 - [Layer 4: security/ — The Safety Gate of the AI System](layers/layer-4-security.md)
 - [Layer 5: evaluation/ — The Testing Layer for AI Quality](layers/layer-5-evaluation.md)
 - [Layer 6: observability/ — Watching What Happens Inside the AI System](layers/layer-6-observability.md)
+- [Layer 7: .claude/ — The AI Coding Assistant Memory Layer](layers/layer-7-claude.md)
