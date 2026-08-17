@@ -2,7 +2,7 @@ To create a generative AI or machine learning solution that is scalable, cost-ef
 
 When you are ready to create a plan for your AI solution, you can use the following types of information to set your strategy, plan your workflow, choose your tools and working methods, and understand solution patterns:
 
-**Strategic decisions**
+**[Strategic decisions](strategic-decisions/)**
 Understand all the factors that you need to consider to make decisions and the possible risks of ignoring factors or changing your decisions later.
 
 **Workflow**
