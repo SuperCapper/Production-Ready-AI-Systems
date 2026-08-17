@@ -49,7 +49,7 @@ Whether you want to analyze your data with mathematical algorithms or generate n
 
 ### More information about the difference between ML and Gen AI
 
-- Foundation model architecture
+- [Foundation model architecture](foundation-model-architecture/)
 
 ## Who to involve
 
