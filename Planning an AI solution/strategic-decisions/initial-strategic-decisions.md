@@ -5,7 +5,7 @@ Before you start planning your generative AI or machine learning solution, you m
 To set the strategy for implementing your AI solution, make the following decisions:
 
 - [What is your use case](#what-is-your-use-case)
-- [Whether to implement gen AI or machine learning](#whether-to-implement-gen-ai-or-machine-learning)
+- [Whether to implement Gen AI or machine learning](#whether-to-implement-gen-ai-or-machine-learning)
 - [Who to involve](#who-to-involve)
 - [How to manage risk and compliance](#how-to-manage-risk-and-compliance)
 - [How much to automate versus code](#how-much-to-automate-versus-code)
@@ -33,7 +33,7 @@ Consider whether the benefits of the solution are greater than the cost of runni
 ### Success criteria
 Decide how to measure whether the solution is successful. For example, you can rely on evaluation metrics or user feedback from target users.
 
-## Whether to implement gen AI or machine learning
+## Whether to implement Gen AI or Machine Learning
 
 The type of data that you plan to work with and what you want to do with that data can help you decide whether you need machine learning or generative AI.
 
